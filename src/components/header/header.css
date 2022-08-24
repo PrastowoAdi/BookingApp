@@ -1,5 +1,5 @@
 .header {
-    background-color: #60a5fa;
+    background-color: #1d4ed8;
     color: white;
     display: flex;
     justify-content: center;
@@ -42,18 +42,19 @@
 }
 
 .headerBtn {
-    background-color: #2563eb;
+    background-color: #60a5fa;
     color: white;
     font-weight: 500;
     border: none;
     padding: 10px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .headerSearch {
     height: 30px;
     background-color: white;
-    border: 3px solid #fcd34d;
+    border: 3px solid #fbbf24;
     display: flex;
     align-items: center;
     justify-content: space-around;
