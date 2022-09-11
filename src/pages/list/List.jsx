@@ -23,9 +23,6 @@ const List = () => {
     `/hotels?city=${destination}&min=${min || 0}&max=${max || 999}`
   );
 
-  const { date } = useContext(SearchContext);
-  console.log(date);
-
   const handleClick = () => {
     reFetch();
   };
